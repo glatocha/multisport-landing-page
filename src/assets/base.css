@@ -1,0 +1,26 @@
+@font-face {
+  font-family: Bungee-Hairline;
+  src: url(./BungeeHairline-Regular.ttf);
+}
+@font-face {
+  font-family: Bungee;
+  src: url(./Bungee-Regular.ttf);
+}
+@font-face {
+  font-family: Bungee-Shade;
+  src: url(./BungeeShade-Regular.ttf);
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-background: #1F2833;
+  --color-primary: #66FCF1;
+  --color-secondary: #C5C6C7;
+  --color-accent: #45A29E;
+
+}
+body {
+  min-height: 100vh;
+  background: var(--color-background);
+  margin: 0;
+}
